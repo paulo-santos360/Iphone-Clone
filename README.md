@@ -1,6 +1,5 @@
 # Iphone-Clone
  Iphone Clone
  
- <div>
-    <img src="img/iphone_blue">
- <div>
+ ![Optional Text](../master/img/iphone_blue.jpg)
+
