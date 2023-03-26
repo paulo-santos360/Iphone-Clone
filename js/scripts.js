@@ -14,12 +14,12 @@ buttons.forEach((btn) => {
     const id = button.getAttribute("id");
 
     button.querySelector(".color").classList.add("selected");
-    //adiciona pela cor selecionada 
+    //adiciona pela cor selecionada
     image.classList.toggle("changing");
     image.setAttribute("src", `img/iphone_${id}.jpg`);
     //imagem vai mudar pela imagem selecionada
     setTimeout(() => {
       image.classList.toggle("changing");
-    }, 200);//tempo da imagem mudar
+    }, 200); //tempo da imagem mudar
   });
 });
